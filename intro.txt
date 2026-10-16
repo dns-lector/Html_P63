@@ -4,3 +4,5 @@ git config --global user.name "dns_12"
 git config --global user.email "dns.lector@ukr.net"
 
 HTML - HyperText Markup Language - Гіпертекстова мова розмітки
+Гіпертекст - текст із включеннями фрагментів, які сприймаються 
+в якості керуючих елементів (програмного коду)
