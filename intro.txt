@@ -1,1 +1,4 @@
 Вступ до HTML
+
+git config --global user.name "dns_006"
+git config --global user.email "dns.lector@ukr.net"
