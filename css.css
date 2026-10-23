@@ -3,6 +3,9 @@
 }
 
 img {
+    border: 2px solid gray;
+    margin: 5px; /* margin - зовнішній відступ (від рамки) */
+    padding: 5px; /* padding - внутрішній відступ (до рамки) */
     width: 30px;
 }
 
