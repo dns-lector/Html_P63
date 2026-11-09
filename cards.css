@@ -30,7 +30,7 @@
 }
 .card-footer {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
     margin: 8px 10px;
 }
 .card-button {
@@ -49,6 +49,26 @@
     flex-direction: column;
 }
 .card-price-discount {
+    align-items: center;
     display: flex;
     flex-direction: row;
+    gap: 4px;
+}
+.card-price-old {
+    color: #bebebe;
+    font-size: small;
+    text-decoration: line-through;
+}
+.card-price-actual {
+    color: #e05252;
+    font-size: large;
+    font-weight: 700;
+}
+.card-dicount-percent {
+    background-color: #e05252;
+    border-radius: 1em;
+    color: snow;
+    font-size: small;
+    font-weight: 600;
+    padding: 1px 3px;
 }
