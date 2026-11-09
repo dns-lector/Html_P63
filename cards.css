@@ -44,4 +44,11 @@
 .card-button:active {
     border: 2px solid #aaa;
 }
-
+.card-price {
+    display: flex;
+    flex-direction: column;
+}
+.card-price-discount {
+    display: flex;
+    flex-direction: row;
+}
