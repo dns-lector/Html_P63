@@ -28,7 +28,7 @@
     padding-left: 10px;
     padding-right: 10px;
     text-overflow: ellipsis;
-    overflow:hidden;
+    overflow: hidden;
 }
 .card-headline {
     font-size: xx-large;
@@ -38,6 +38,9 @@
 .card-subhead {
     font-size: x-large;
     white-space: nowrap;
+}
+.spacer {
+    flex: 1;
 }
 .card-text {
     flex: 1;
