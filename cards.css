@@ -1,3 +1,14 @@
+.page-header {
+    font-size: 4vw;
+}
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px 2%;
+    justify-content: center;
+    margin: 10px 10%;
+}
 .card {
     border-radius: 10px;
     box-shadow: 0 3px 3px 2px #bbb;
@@ -16,17 +27,28 @@
 .card-headline, .card-subhead, .card-text {
     padding-left: 10px;
     padding-right: 10px;
+    text-overflow: ellipsis;
+    overflow:hidden;
 }
 .card-headline {
     font-size: xx-large;
     padding-top: 7px;
+    white-space: nowrap;
 }
 .card-subhead {
     font-size: x-large;
+    white-space: nowrap;
 }
 .card-text {
     flex: 1;
     padding-top: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
+    line-height: 20px;
+    max-height: 40px;
 }
 .card-footer {
     display: flex;
